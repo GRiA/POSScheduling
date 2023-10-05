@@ -23,9 +23,9 @@
 		2867B38D2ACD7F8A0011E6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B38B2ACD7F8A0011E6E7 /* LaunchScreen.storyboard */; };
 		2867B3902ACD7F8A0011E6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2867B38F2ACD7F8A0011E6E7 /* main.m */; };
 		2867B3942ACD7F930011E6E7 /* POSScheduling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B3622ACD7F3E0011E6E7 /* POSScheduling.framework */; };
-		2867B3982ACD8C500011E6E7 /* Aspects.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B3522ACC7B840011E6E7 /* Aspects.xcframework */; };
-		2867B3992ACD8C500011E6E7 /* POSErrorHandling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B3542ACC7B8F0011E6E7 /* POSErrorHandling.xcframework */; };
-		2867B39A2ACD8C500011E6E7 /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B3552ACC7B8F0011E6E7 /* ReactiveObjC.xcframework */; };
+		2867B4952ACEF5B70011E6E7 /* POSErrorHandling.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B4932ACEF5B70011E6E7 /* POSErrorHandling.xcframework */; };
+		2867B4972ACEF5B70011E6E7 /* Aspects.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B4942ACEF5B70011E6E7 /* Aspects.xcframework */; };
+		2867B49B2ACEF5C10011E6E7 /* ReactiveObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B49A2ACEF5C10011E6E7 /* ReactiveObjC.xcframework */; };
 		684C327A20E2A1A100AE70E6 /* POSSchedulableObjectMocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C327120E2A1A000AE70E6 /* POSSchedulableObjectMocks.m */; };
 		684C327B20E2A1A100AE70E6 /* POSSequentialTaskExecutorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C327220E2A1A000AE70E6 /* POSSequentialTaskExecutorTests.m */; };
 		684C327C20E2A1A100AE70E6 /* POSSchedulableObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684C327320E2A1A100AE70E6 /* POSSchedulableObjectTests.m */; };
@@ -39,9 +39,6 @@
 /* Begin PBXFileReference section */
 		21D2DFEE1DC37AAB00453C50 /* POSSchedulingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSSchedulingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D2DFF21DC37AAB00453C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2867B3522ACC7B840011E6E7 /* Aspects.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Aspects.xcframework; path = Carthage/Build/Aspects.xcframework; sourceTree = "<group>"; };
-		2867B3542ACC7B8F0011E6E7 /* POSErrorHandling.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = POSErrorHandling.xcframework; path = Carthage/Build/POSErrorHandling.xcframework; sourceTree = "<group>"; };
-		2867B3552ACC7B8F0011E6E7 /* ReactiveObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveObjC.xcframework; path = Carthage/Build/ReactiveObjC.xcframework; sourceTree = "<group>"; };
 		2867B3622ACD7F3E0011E6E7 /* POSScheduling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSScheduling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2867B3642ACD7F3E0011E6E7 /* POSScheduling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSScheduling.h; sourceTree = "<group>"; };
 		2867B37B2ACD7F880011E6E7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +53,9 @@
 		2867B38C2ACD7F8A0011E6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2867B38E2ACD7F8A0011E6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2867B38F2ACD7F8A0011E6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2867B4932ACEF5B70011E6E7 /* POSErrorHandling.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = POSErrorHandling.xcframework; path = Carthage/Build/POSErrorHandling.xcframework; sourceTree = "<group>"; };
+		2867B4942ACEF5B70011E6E7 /* Aspects.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Aspects.xcframework; path = Carthage/Build/Aspects.xcframework; sourceTree = "<group>"; };
+		2867B49A2ACEF5C10011E6E7 /* ReactiveObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ReactiveObjC.xcframework; path = Carthage/Build/ReactiveObjC.xcframework; sourceTree = "<group>"; };
 		684C327120E2A1A000AE70E6 /* POSSchedulableObjectMocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSSchedulableObjectMocks.m; sourceTree = "<group>"; };
 		684C327220E2A1A000AE70E6 /* POSSequentialTaskExecutorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSSequentialTaskExecutorTests.m; sourceTree = "<group>"; };
 		684C327320E2A1A100AE70E6 /* POSSchedulableObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSSchedulableObjectTests.m; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2867B3982ACD8C500011E6E7 /* Aspects.xcframework in Frameworks */,
-				2867B3992ACD8C500011E6E7 /* POSErrorHandling.xcframework in Frameworks */,
-				2867B39A2ACD8C500011E6E7 /* ReactiveObjC.xcframework in Frameworks */,
+				2867B49B2ACEF5C10011E6E7 /* ReactiveObjC.xcframework in Frameworks */,
+				2867B4952ACEF5B70011E6E7 /* POSErrorHandling.xcframework in Frameworks */,
+				2867B4972ACEF5B70011E6E7 /* Aspects.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,9 +235,9 @@
 		8827EA395011589A502BD62B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2867B3542ACC7B8F0011E6E7 /* POSErrorHandling.xcframework */,
-				2867B3552ACC7B8F0011E6E7 /* ReactiveObjC.xcframework */,
-				2867B3522ACC7B840011E6E7 /* Aspects.xcframework */,
+				2867B49A2ACEF5C10011E6E7 /* ReactiveObjC.xcframework */,
+				2867B4942ACEF5B70011E6E7 /* Aspects.xcframework */,
+				2867B4932ACEF5B70011E6E7 /* POSErrorHandling.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -595,6 +595,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Aspects.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/Carthage/Build/POSErrorHandling.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/Carthage/Build/ReactiveObjC.xcframework/ios-arm64",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
@@ -633,6 +639,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Aspects.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/Carthage/Build/POSErrorHandling.xcframework/ios-arm64",
+					"$(PROJECT_DIR)/Carthage/Build/ReactiveObjC.xcframework/ios-arm64",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";

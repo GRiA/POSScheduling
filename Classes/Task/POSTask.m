@@ -8,7 +8,7 @@
 
 #import "POSTask.h"
 #import "RACTargetQueueScheduler+POSScheduling.h"
-#import <POSErrorHandling/NSException+POSErrorHandling.h>
+@import POSErrorHandling;
 
 NS_ASSUME_NONNULL_BEGIN
 
