@@ -7,6 +7,7 @@
 //
 
 #import "POSTaskQueue.h"
+@import POSErrorHandling;
 
 NS_ASSUME_NONNULL_BEGIN
 

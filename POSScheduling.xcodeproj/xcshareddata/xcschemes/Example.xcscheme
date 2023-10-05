@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "1420"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
-               BuildableName = "POSScheduling.framework"
-               BlueprintName = "POSScheduling"
+               BlueprintIdentifier = "2867B37A2ACD7F880011E6E7"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
                ReferencedContainer = "container:POSScheduling.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
-            BuildableName = "POSScheduling.framework"
-            BlueprintName = "POSScheduling"
+            BlueprintIdentifier = "2867B37A2ACD7F880011E6E7"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
             ReferencedContainer = "container:POSScheduling.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
-            BuildableName = "POSScheduling.framework"
-            BlueprintName = "POSScheduling"
+            BlueprintIdentifier = "2867B37A2ACD7F880011E6E7"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
             ReferencedContainer = "container:POSScheduling.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

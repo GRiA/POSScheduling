@@ -10,6 +10,7 @@
 #import "RACTargetQueueScheduler+POSScheduling.h"
 
 #import <ReactiveObjC/NSInvocation+RACTypeParsing.h>
+@import POSErrorHandling;
 #import <objc/runtime.h>
 
 NS_ASSUME_NONNULL_BEGIN
