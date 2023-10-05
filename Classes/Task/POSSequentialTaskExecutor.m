@@ -8,6 +8,7 @@
 
 #import "POSSequentialTaskExecutor.h"
 #import <objc/runtime.h>
+#import <POSErrorHandling/NSException+POSErrorHandling.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

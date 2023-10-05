@@ -7,6 +7,7 @@
 //
 
 #import "POSTask.h"
+#import <POSErrorHandling/NSException+POSErrorHandling.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

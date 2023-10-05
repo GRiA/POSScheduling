@@ -7,6 +7,8 @@
 //
 
 #import "POSSchedulableObject.h"
+#import <POSErrorHandling/POSErrorHandling.h>
+#import <POSErrorHandling/POSContracts.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

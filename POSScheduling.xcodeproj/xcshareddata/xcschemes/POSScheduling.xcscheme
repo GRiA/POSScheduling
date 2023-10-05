@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21D2DFD41DC3793000453C50"
-               BuildableName = "libPOSScheduling.a"
+               BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
+               BuildableName = "POSScheduling.framework"
                BlueprintName = "POSScheduling"
                ReferencedContainer = "container:POSScheduling.xcodeproj">
             </BuildableReference>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21D2DFD41DC3793000453C50"
-            BuildableName = "libPOSScheduling.a"
+            BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
+            BuildableName = "POSScheduling.framework"
             BlueprintName = "POSScheduling"
             ReferencedContainer = "container:POSScheduling.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,8 +59,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21D2DFD41DC3793000453C50"
-            BuildableName = "libPOSScheduling.a"
+            BlueprintIdentifier = "2867B3612ACD7F3E0011E6E7"
+            BuildableName = "POSScheduling.framework"
             BlueprintName = "POSScheduling"
             ReferencedContainer = "container:POSScheduling.xcodeproj">
          </BuildableReference>
