@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <POSScheduling/POSSequentialTaskExecutor.h>
+#import <POSScheduling/RACSignal+POSScheduling.h>
+#import <POSScheduling/RACTargetQueueScheduler+POSScheduling.h>
 
 //! Project version number for POSScheduling.
 FOUNDATION_EXPORT double POSSchedulingVersionNumber;
